@@ -31,26 +31,29 @@
         "dev": "nuxi dev playground",
         "dev:build": "nuxi build playground",
         "dev:prepare": "unbuild --stub && nuxi prepare playground",
-        "prepack": "unbuild"
+        "build": "unbuild",
+        "build:dev": "unbuild --watch src"
     },
     "dependencies": {
         "@nuxt-alt/http": "latest",
         "@nuxt/kit": "^3.1.1",
         "@pinia/nuxt": "latest",
+        "@refactorjs/ofetch": "^1.0.1",
         "body-parser": "latest",
         "cookie-es": "latest",
         "defu": "latest",
+        "jiti": "^1.17.0",
         "jwt-decode": "latest",
         "ohash": "latest",
         "pathe": "latest",
-        "requrl": "latest"
+        "requrl": "latest",
+        "vue": "^3.2.47"
     },
     "devDependencies": {
         "@nuxt/schema": "^3.1.1",
         "@types/node": "^18.11.18",
         "fdir": "latest",
-        "nuxt": "^3.1.1",
-        "unbuild": "latest"
+        "nuxt": "^3.1.1"
     },
     "repository": {
         "type": "git",
