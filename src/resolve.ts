@@ -13,6 +13,7 @@ const BuiltinSchemes = {
     openIDConnect: 'OpenIDConnectScheme',
     refresh: 'RefreshScheme',
     laravelJWT: 'LaravelJWTScheme',
+    laravelSanctum: 'LaravelSanctumScheme',
     auth0: 'Auth0Scheme',
 };
 

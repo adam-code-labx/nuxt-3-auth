@@ -11,7 +11,7 @@ export function laravelSanctum(nuxt: Nuxt, strategy: ProviderPartialOptions<Lara
     };
 
     const DEFAULTS: typeof strategy = {
-        scheme: 'cookie',
+        scheme: 'laravelSanctum',
         name: 'laravelSanctum',
         cookie: {
             name: 'XSRF-TOKEN',
@@ -40,7 +40,7 @@ export function laravelSanctum(nuxt: Nuxt, strategy: ProviderPartialOptions<Lara
                 server: false,
                 client: false
             },
-            autoFetch: true,
+            autoFetch: false,
         }
     };
 
